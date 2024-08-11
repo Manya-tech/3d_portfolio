@@ -37,7 +37,7 @@ const Contact = () => {
         template_j3vljf4,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Manya Gupta",
           from_email: form.email,
           to_email: "",
           message: form.message,

@@ -19,7 +19,8 @@ import {
     experience,
     smartview,
     sitecodegen,
-    covidvaccine
+    covidvaccine,
+    ai_code_generator
   } from "../assets";
   
   export const navLinks = [
@@ -212,6 +213,27 @@ import {
       ],
       image: smartview,
       source_code_link: "https://github.com/Manya-tech/SmartView",
+    },
+    {
+      name: "AI Code Generator Agent",
+      description:
+        "An AI agent that uses multiple LLM models to generate code for a give task and saves the generated code as a file. Uses two tools, one to read code documentation and other to read the already present code and choses which tool to use to generate the best answer.",
+      tags: [
+        {
+          name: "ollama",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "llamaindex",
+          color: "green-text-gradient",
+        },
+        {
+          name: "rag",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: ai_code_generator,
+      source_code_link: "https://github.com/Manya-tech/AI-Code-Generator-Agent",
     },
     {
       name: "Site Code Generator",
