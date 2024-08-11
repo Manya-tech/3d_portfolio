@@ -37,6 +37,7 @@ import experience from "./company/purple_oval.png";
 import smartview from "./smartview.png";
 import sitecodegen from "./sitecodegen.png";
 import covidvaccine from "./covidvaccine.png";
+import aicodegenerator from "./aicodegenerator.png";
 
 export {
   experience,
@@ -70,5 +71,6 @@ export {
   flask,
   smartview,
   sitecodegen,
-  covidvaccine
+  covidvaccine,
+  aicodegenerator
 };
