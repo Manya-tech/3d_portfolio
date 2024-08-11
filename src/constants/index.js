@@ -20,7 +20,7 @@ import {
     smartview,
     sitecodegen,
     covidvaccine,
-    ai_code_generator
+    aicodegenerator
   } from "../assets";
   
   export const navLinks = [
@@ -232,7 +232,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: ai_code_generator,
+      image: aicodegenerator,
       source_code_link: "https://github.com/Manya-tech/AI-Code-Generator-Agent",
     },
     {
